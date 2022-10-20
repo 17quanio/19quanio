@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Music center</h1>
+        <p>Music performance your own way</p>
+    </header>
+    <nav class="navbar">
+
+        <a href="index.html"><i class="icon fa-solid fa-address-card"></i>Home</a>
+        
+        <a href="sheets.html"><i class="icon fa-solid fa-address-card"></i>Music Sheets</a>
+        <a href="instru.html"><i class="icon fa-solid fa-guitar"></i>Instrutmen</a>
+        <a href="about.html"><i class="icon fa-solid fa-address-card"></i>About us</a>
+        <a id="main-nav" href="learn.html"><i class="icon fa-solid fa-graduation-cap"></i>Learn</a>
+        
+
+
+
+        <button class="botton-btn" onclick="document.getElementById('id01').style.display='block'"
+            style="width:auto;">Login</button>
+        <!-- <a class="right" href=""><i class="icon fa-solid fa-right-to-bracket"></i>login</a> -->
+
+        <button class="botton-btn" onclick="document.getElementById('id02').style.display='block'"
+            style="width:auto;">Sign
+            Up</button>
+
+
+        <input type="text" placeholder="Search...">
+    </nav>
+
+    <!-- form -->
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="/design/assets/img/logo.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+
+
+    
+    
+
+
+
+    <div class="row">
+        
+        <div style="background-color:#3a3a3a; " class="all">
+            <div style="padding: 50px;" class="main-text" >
+                <h1 style="color: #ff8300; letter-spacing: 3px;font-size: 30px;"> MUSIC CENTER EDUCATION</h1>
+                <i style="color: #fff; font-size: 20px;">The tools you need for your online music education</i>
+                <p style="color: #fff; ">Whether you’re a complete beginner or a professional musician, there is something special for you to learn at Virtual Piano. Begin your journey or fly even further. Schools use Virtual Piano as a credible teaching tool and students use it to excel in their passion for music. Whatever, you're here for, prepare to experience an uncharted world of creative music.</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oppDi_FKR2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 class="col-6-text">Canon in D</h1>
+            <p class="col-6-text">SHeets piano</p>
+            
+        </div>
+        <div class="col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ggwDHh7yNiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 class="col-6-text">Titanic Theme | My Heart Will Go On Guitar Tutorial</h1>
+            <p class="col-6-text">TABS Christianvib</p>
+        </div>
+        <div class="col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PsN4NPrWSVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 class="col-6-text">[Free Sheet] Michishirube - Violet Evergarden</h1>
+            <p class="col-6-text">[Violin Cover Sheet Music]</p>
+        </div>
+        <div class="col-6">
+            <h1 style="color: #ff8300; letter-spacing: 3px;font-size: 30px;margin-left: 35px;">Music Lessons for All Ages</h1>
+            <p class="col-6-text"> Music Center is a welcoming community of beginner to advanced music students. Play music together with our affordable group classes or receive private music instruction from the best music teachers. We offer a free trial lesson, with classes at our music center or online.
+
+            </p>
+            <p class="col-6-text">Learn to play the piano in less than one minute, anywhere, anytime. You can use your computer, tablet or even mobile device.</p>
+            <h1 style="color: rgb(56, 56, 221); letter-spacing: 3px;font-size: 30px;margin-left: 35px;">The Challenge Worldwide</h1>
+            <p class="col-6-text">Within us all is a desire to play music. To address a musical instrument with confidence, to play the notes in just the right order and to create music that moves us. We thrive on being able to participate in music and to engage with our emotions through the language of sound. Whilst nothing quite compares to the majesty of a physical grand piano, a harp, a Glockenspiel, a Sitar or even an organ, it’s often difficult to access these instruments under one roof, making learning these instruments a challenge for the majority.</p>
+            
+        </div>
+        
+        
+
+
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-3">
+                <h1>Information</h1>
+                <p>Blog</p>
+                <p>About</p>
+                <p>Privacy Policy</p>
+                <p>Website Subport</p>
+            </div>
+            <div class="col-3">
+                <h1>Location</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.443661450985!2d106.6256397151859!3d10.853821092269015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee0b0ef9e5%3A0x5b4da59e47aa97a8!2zQ8O0bmcgVmnDqm4gUGjhuqduIE3hu4FtIFF1YW5nIFRydW5n!5e0!3m2!1svi!2s!4v1666191932218!5m2!1svi!2s"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-3">
+                <h1>Contact US</h1>
+                <h3>Adress:</h3>
+                <p>TP HCM</p>
+                <h3>Phone:</h3>
+                <p>0385885006</p>
+                <h3>Email:</h3>
+                <p>quan@xample.com</p>
+            </div>
+            <div class="col-3">
+                <h1>Follow us</h1>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+
+<!-- form -->
+
+
+<!-- <button class="botton" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button> -->
+
+<div id="id02" class="modall">
+    <span onclick="document.getElementById('id02').style.display='none'" class="closee"
+        title="Close Modal">&times;</span>
+    <form class="modal-contentt" action="/action_page.php">
+        <div class="containerr">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                    class="cancelbtnn">Cancel</button>
+                <button type="submit" class="signupbtnn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+<script src="https://uhchat.net/code.php?f=339620"></script>
+</html>

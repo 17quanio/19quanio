@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+        <link rel="stylesheet" href="min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Music center</h1>
+        <p>Music performance your own way</p>
+    </header>
+    <nav class="navbar">
+
+        <a href="index.html"><i class="icon fa-solid fa-address-card"></i>Home</a>
+        <a href="sheets.html"><i class="icon fa-solid fa-address-card"></i>Music Sheets</a>
+        <a id="main-nav" href="instru.html"><i class="icon fa-solid fa-guitar"></i>Instrutmen</a>
+        <a href="about.html"><i class="icon fa-solid fa-address-card"></i>About us</a>
+        <a href="learn.html"><i class="icon fa-solid fa-graduation-cap"></i>Learn</a>
+
+
+
+        <button class="botton-btn" onclick="document.getElementById('id01').style.display='block'"
+            style="width:auto;">Login</button>
+        <!-- <a class="right" href=""><i class="icon fa-solid fa-right-to-bracket"></i>login</a> -->
+
+        <button class="botton-btn" onclick="document.getElementById('id02').style.display='block'"
+            style="width:auto;" >SignUp</button>
+
+
+            
+                <input type="text" placeholder="Search.." name="search">
+               
+             
+    </nav>
+
+    <!-- form -->
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="/design/assets/img/logo.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+    <div class="row">
+        <div class="side">
+            <img src="/design/assets/img_container/piano.jpeg" alt="piano" width="400px" height="400px">
+        </div>
+        <div class="main">
+            <div class="main-text">
+                <h1>Music Center</h1>
+                <h3>Music is Life</h3>
+                <p>Discover your favourite songs in the world's largest library of virtual piano music sheets.</p>
+                <p>Select from thousands of free virtual piano music sheets and play them from any device. Choose songs
+                    from more than 25 main music sheet categories and 140 music sheet tags. Play the piano in less than
+                    a minute using the unique Virtual Piano music sheet notation that anyone can play right away!</p>
+            </div>
+        </div>
+        <div class="all">
+            <div class="main-text">
+                <h1>“The piano keys are black and white, but they sound like a million colors in your mind”… Maria
+                    Christina Mena</h1>
+                <p>The Piano Shop was established for the love of music and pianos. We bring the world’s finest pianos
+                    to the marketplace. We promote and facilitate playing the piano by providing complete piano
+                    services, partnering with piano teachers, presenting piano recitals, sponsoring piano festivals, and
+                    competitions.</p>
+            </div>
+        </div>
+        <div class="all">
+            <div class="main-text-second">
+                <h1>MUSIC SHEETS</h1>
+                <p style="color: red;">Discover your favourite songs in the world's largest library of virtual piano
+                    music sheets.</p>
+                <p>Select from thousands of free virtual piano music sheets and play them from any device. Choose songs
+                    from more than 25 main music sheet categories and 140 music sheet tags. Play the piano in less than
+                    a minute using the unique Virtual Piano music sheet notation that anyone can play right away!</p>
+                <div class="text-sheets" style="background-color: #fff;">
+                    <h3>Find Music Sheets By</h3>
+                    <h1>Popular Categories</h1>
+                </div>
+                <p>Discover the best songs to play in the world's largest library of verified virtual piano music
+                    sheets, updated daily on Virtual Piano.</p>
+            </div>
+        </div>
+
+
+        <div class="all">
+            <div class="main-text-third">
+                <h1>Our Fun Music Programs</h1>
+                <p>Music Instruction for everyone</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/guitar.png" alt="">
+                </a>
+
+                <h2>Bass Guitar</h2>
+                <p>The bass guitar is traditionally grouped in the rhythm section of a band. While the guitar focuses
+                    more on chordal harmony, the bass part is...</p>
+            </div>
+
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/grand-piano.png" alt="">
+                </a>
+
+                <h2>Piano</h2>
+                <p>Piano is one of those very few instruments where you can play both melody and harmony at the same
+                    time. It just takes a simple pressure from your...</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/guitar elt.png" alt="">
+                </a>
+
+                <h2>Bass Guitar</h2>
+                <p>The bass guitar is traditionally grouped in the rhythm section of a band. While the guitar focuses
+                    more on chordal harmony, the bass part is...</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/violin.png" alt="">
+                </a>
+
+                <h2>Violin</h2>
+                <p>violin or violin, an indispensable instrument in theater performances all over the world. Violins
+                    appeared in the early 16th century in Italy. It's an extremely expressive string instrument that can
+                    be played solo, providing an exceptional sound for all genres of music from classical to popular...
+                </p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/drum-set.png" alt="">
+                </a>
+
+                <h2>Drum set</h2>
+                <p>Playing drums is fun for all ages and teaches coordination, timing, and rhythm. Each of our lessons
+                    are tailored to each student with an emphasis...</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/flute.png" alt="">
+                </a>
+
+                <h2>Flute</h2>
+                <p>The flute is a family of classical musical instruments in the woodwind group. Like all woodwinds,
+                    flutes are aerophones, which means they produce sound by vibrating a column of air...</p>
+            </div>
+
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/koto.png" alt="">
+                </a>
+
+                <h2>Koto</h2>
+                <p>The original Koto zither from ancient times in Japan called the Wagon (和琴 - Harmony) or Yamato-goto
+                    (Great Harmony) is a type of zither consisting of 6 strings (rarely 5 strings) and is found found in
+                    ruins excavated from the Yayoi period to the Nara period</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/oud.png" alt="">
+                </a>
+
+                <h2>Oud</h2>
+                <p>It is a short-necked lute, shaped like a half-pear, and is a keyless stringed instrument,[4] usually
+                    having 11 strings grouped into six pairs but some may have five or seven pairs of strings. , with 10
+                    or 13 strings respectively.</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/saxophone.png" alt="">
+                </a>
+
+                <h2>Xasophone</h2>
+                <p>We offer lessons on saxophone, clarinet, and flute starting at age 6 and up. We have a diverse and
+                    exciting program with customized lesson plans...</p>
+            </div>
+        </div>
+        <div class="col-20">
+            <div class="list-tem">
+                <a href="">
+                    <img class="list-tem-img" src="/design/assets/instruments/sitar.png" alt="">
+                </a>
+
+                <h2>Sitar</h2>
+                <p>Sitar is a plucked stringed instrument, native to the Indian subcontinent, used in Hindustani
+                    classical music. This instrument was invented in medieval India, flourished in the 18th century and
+                    came to its present form in 19th century India.</p>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div style="text-align: center;">
+        <a href="#" class="previous">&laquo; Previous</a>
+        <a href="#" class="next">Next &raquo;</a>
+
+        <a href="#" class="previous round">&#8249;</a>
+        <a href="#" class="next round">&#8250;</a>
+    </div>
+
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-3">
+                <h1>Information</h1>
+                <p>Blog</p>
+                <p>About</p>
+                <p>Privacy Policy</p>
+                <p>Website Subport</p>
+            </div>
+            <div class="col-3">
+                <h1>Location</h1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.443661450985!2d106.6256397151859!3d10.853821092269015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee0b0ef9e5%3A0x5b4da59e47aa97a8!2zQ8O0bmcgVmnDqm4gUGjhuqduIE3hu4FtIFF1YW5nIFRydW5n!5e0!3m2!1svi!2s!4v1666191932218!5m2!1svi!2s"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-3">
+                <h1>Contact US</h1>
+                <h3>Adress:</h3>
+                <p>TP HCM</p>
+                <h3>Phone:</h3>
+                <p>0385885006</p>
+                <h3>Email:</h3>
+                <p>quan@xample.com</p>
+            </div>
+            <div class="col-3">
+                <h1>Follow us</h1>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+
+<!-- form -->
+
+
+<!-- <button class="botton" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button> -->
+
+<div id="id02" class="modall">
+    <span onclick="document.getElementById('id02').style.display='none'" class="closee"
+        title="Close Modal">&times;</span>
+    <form class="modal-contentt" action="/action_page.php">
+        <div class="containerr">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                    class="cancelbtnn">Cancel</button>
+                <button type="submit" class="signupbtnn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</html>
